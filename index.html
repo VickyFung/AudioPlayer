@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>冯慧敏的音乐播放器</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/draggabilly.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <audio id="audio"></audio>
+    <div id="ap">
+        <div class="header">
+            <i class="back iconfont icon-fanhui"></i>
+            <div class="title">
+                <p class="title-song"></p>
+                <p class="title-singer"></p>
+            </div>
+            <i class="lists iconfont icon-liebiao"></i>
+        </div>
+        <div class="main">
+            <div class="cd">
+                <div class="needle"></div>
+                <div class="cd-play">
+                    <img src="img/singer.jpg">
+                </div>
+            </div>
+            <div class="lyric"></div>
+        </div>
+        <div class="footer">
+            <div class="volumn">
+                <i class="volumn-icon iconfont icon-shengyin"></i>
+                <div class="volumn-bar"></div>
+                <i class="lyric-icon iconfont icon-geci"></i>
+            </div>
+            <div class="progress">
+                <span class="progress-time"></span>
+                <div class="progress-bar">
+                        <div class="progress-line"></div>
+                        <div class="progress-dot"></div>
+                </div>
+                <span class="song-time"></span>
+            </div>
+            <div class="controller">
+                <i class="prev iconfont icon-shangyishou"></i>
+                <i class="switch iconfont icon-bofang"></i>
+                <i class="next iconfont icon-xiayishou"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
